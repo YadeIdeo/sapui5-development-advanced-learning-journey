@@ -1,11 +1,18 @@
+
+        <!-- <customDescription>
+            <Link text="{i18n>linkText}" press=".onNavBack"/>
+        </customDescription> -->
+
 <mvc:View controllerName="student00.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.NotFound"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
     <MessagePage id="messagePage1" 
         title="{i18n>notFoundMessageTitle}"
-        text="{i18n>notFoundMessageText}"
-        description="{i18n>notFoundMessageDescrition}"
-        showNavButton="true"
-        navButtonPress="onNavBack"/>
+        description="{i18n>notFoundMessageDescription}">
+
+    <buttons>
+        <Button text="{i18n>linkText}" press=".onNavBack"/>
+    </buttons>
+    </MessagePage>
 
 </mvc:View>
