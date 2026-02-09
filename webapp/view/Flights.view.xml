@@ -1,4 +1,10 @@
-<mvc:View controllerName="student00.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Flights" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout">
+<mvc:View 
+    controllerName="student00.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Flights" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    displayBlock="true" 
+    xmlns="sap.m" 
+    xmlns:l="sap.ui.layout"
+    xmlns:my = "student.com.sap.training.advancedsapui5.fullscreen.control">
     <Page id="idFlightsPage" navButtonPress="onNavBack" showNavButton="true" title="{Carrname}">
         <content>
             <l:VerticalLayout id="verticalLayout">
